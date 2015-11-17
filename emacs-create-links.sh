@@ -7,4 +7,4 @@
 curdir=$(dirname $(readlink -f $0))
 
 ln -s $curdir/emacs.d ~/.emacs.d
-ln -s $curdir/emacs ~/.emacs
+

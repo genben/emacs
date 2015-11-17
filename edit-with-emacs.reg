@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\emacs]
+@="Edit with &Emacs"
+"Icon"="d:\\Progs\\emacs\\bin\\runemacs.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\emacs\command]
+@="d:\\Progs\\emacs\\bin\\runemacs.exe \"%1\""
